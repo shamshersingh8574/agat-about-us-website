@@ -1,0 +1,761 @@
+/* imp-: 991 to 767 padding-top 60px */
+/* imp-: 767 to 639 padding-top  */
+/* imp-: 639 to infinite padding-top 40px */
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Source Sans Pro'; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+
+ 
+
+ul {
+    padding: 0;
+}
+
+input,
+select,
+textarea {
+    outline: none !important;
+}
+
+h1 {}
+
+h2 {
+    font-size: 44px;
+    line-height: 58px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: center;
+}
+
+h3 {
+    font-size: 34px;
+    line-height: normal;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+}
+
+h4 {}
+
+h5 {}
+
+p {
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+.navabar-icons {
+	font-size: 20px;
+	display: none;
+    color: white;
+}
+
+.navabar-icons2 {
+	font-size: 26px;
+	display: none;
+    color: white;
+}
+body.oerflow-hidden {
+    overflow: hidden;
+}
+
+nav.toggle-custom.main {
+	display: block;
+}
+/*=========================== header css Start ========================*/
+.header {
+    padding: 9px 0px 12px 0px;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 1;
+}
+.navabar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navabar nav ul {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+ul li a {
+    font-size: 17px;
+    line-height: 30px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 31px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.navabar-btn a {
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background: #7f32a2;
+    padding: 13px 35px;
+    border-radius: 50px;
+}
+
+.navabar-logo {
+    width: 33%;
+}
+
+.navabar nav {
+    width: 50%;
+}
+
+.navabar-btn {
+    width: 14%;
+    text-align: right;
+}
+.navbar-btn-mobile-view{
+    display: none;
+}
+
+/*=========================== header css Start ========================*/
+
+/*=========================== about-banner css Start ========================*/
+.about-banner-main {
+    background-color: #fefefe;
+    padding: 30px 0px 40px 0px;
+    position:relative;
+    overflow: hidden;
+    z-index: -1;
+    top: 77px;
+}
+
+.about-banner-text-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.about-banner-text {
+    width: 45%;
+    padding: 95px 93px;
+    z-index: 1;
+}
+
+.about-banner-text h2 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.about-banner-img-card-p p:nth-child(1) {
+    font-size: 24px;
+    line-height: 20px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    text-align: left;
+    padding-top: 6px;
+    /* left: 18px; */
+    position: relative;
+}
+
+.about-banner-img-card-p p:nth-child(2) {
+    font-size: 16px;
+    color: #232323;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+    text-align: left;
+}
+
+.about-banner-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45%;
+    padding-top: 28px;
+}
+
+#about-banner-main::before {
+    content: "";
+    width: 335px;
+    height: 38rem;
+    position: absolute;
+    filter: blur(80px);
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    background: linear-gradient(to top, #faefef 0%, #faefef 100%);
+    z-index: -1;
+}
+
+.about-banner-img-card-2 {
+    position: relative;
+    top: 157px;
+}
+
+.about-banner-img-card-3 {
+    padding-top: 55px;
+}
+
+#about-banner-main::after {
+    content: "";
+    width: 335px;
+    height: 38rem;
+    position: absolute;
+    /* filter: blur(80px); */
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    right: auto;
+    background: linear-gradient(to top, #F8F5F8 50%, #f5f1f6 50%);
+    z-index: -1;
+}
+
+.about-banner::before {
+    content: '';
+    width: 194px;
+    height: 36rem;
+    background: linear-gradient(to top, #F8F5F8 0%, #e9dfed 100%);
+    position: absolute;
+    left: 189px;
+    z-index: 1;
+    filter-blur: invert(1);
+    filter: blur(24px);
+    top: 14px;
+}
+
+
+.about-banner-p p {
+    font-size: 94px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: "Source Sans Pro";
+    background: #AAA9DE;
+    /* background: linear-gradient(360deg, #fdbbaf 0%, #AAA9DE 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 96px;
+    left: 42px;
+    animation: animateBg 2s linear infinite;
+    background-image: linear-gradient(0deg,#aaa9de,#fdbbaf,#aaa9de,#fdbbaf);
+    background-size: 100% 300%;
+}
+
+  @keyframes animateBg {
+    0% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+  
+
+.about-banner-p::after {
+    position: absolute;
+    content: '';
+    width: 169px;
+    height: 75px;
+    background: #E9BAB2;
+    transform: rotate(-28deg);
+    overflow: hidden;
+    top: -55px;
+    left: -29px;
+    filter: blur(8px);
+}
+
+.about-banner-p::before {
+    position: absolute;
+    content: '';
+    width: 213px;
+    height: 131px;
+    background: #E9BAB2;
+    transform: rotate(-31deg);
+    overflow: hidden;
+    top: -72px;
+    filter: blur(38px);
+    right: -61px;
+    background: #a6a5d6;
+    z-index: -1;
+}
+
+/*=========================== about-banner css End ==========================*/
+
+/*=========================== about-paragraph css Start ========================*/
+.about-paragraph-main {
+    padding: 122px 0px 85px 0px;
+}
+.about-paragraph p {
+    padding-top: 20px;
+}
+
+/*=========================== about-paragraph css End ==========================*/
+
+.footer{
+    padding-bottom: 20px;
+}
+
+
+.ftr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ftr-copy-right {
+    width: 50%;
+}
+
+.ftr-p {
+    width: 30%;
+}
+
+.ftr-icons {
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.ftr-icons li {
+    padding-left: 15px;
+}
+
+
+.ftr-icons a {
+    background: #a33f81;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #c8586c 26%, #7f32a4 100%);
+}
+.ftr-icons li{
+    transition: 0.3s;
+
+}
+.ftr-icons li:hover {
+    transform: translate(0, -10px);
+}
+.ftr-copy-right p {
+    font-size: 17px;
+    line-height: 29px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+}
+
+.ftr-logo-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.ftr-a {
+    width: 50%;
+}
+
+.ftr-icons {
+    width: 50%;
+    align-items: center;
+}
+
+
+/*=========================== footer css End ==========================*/
+/*=========================== media query css Start ========================*/
+@media only screen and (max-width:1200px) {
+    .container {
+        width: 970px;
+    }
+
+    .navabar-btn {
+        width: 16%;
+    }
+
+    .about-banner-p p {
+        font-size: 91px;
+        top: 17%;
+        left: 0%;
+    }
+
+    .ftr-copy-right {
+        width: 50%;
+    }
+
+    .ftr-logo-icon {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .container {
+        width: 750px;
+    }
+
+    .navabar nav {
+        width: 47%;
+    }
+
+    .navabar-btn {
+        width: 20%;
+    }
+
+    .about-banner-p p {
+        font-size: 78px;
+        top: 15%;
+        left: 17px;
+    }
+
+    .about-banner-text {
+        width: 46%;
+        padding: 71px 0px 0px 86px;
+    }
+    .about-banner-cards {
+        width: 45%;
+        padding-top: 28px;
+    }
+    .about-banner-img-card-2 {
+        top: 121px;
+    }
+    .about-banner-img-card {
+        width: 40%;
+        z-index: 1;
+    }
+    .about-banner-img-card-3 {
+        padding-top: 44px;
+    }
+
+    .ftr-copy-right {
+        width: 53%;
+    }
+
+    .ftr-icons {
+        width: 54%;
+    }
+    .ftr-a {
+        width: 40%;
+    }
+    .ftr-logo-icon {
+        width: 41%;
+    }
+
+    .about-paragraph-main {
+        padding: 129px 0px 49px 0px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .navabar-logo {
+        width: 17%;
+    }
+
+    .navabar-btn {
+        width: 27%;
+    }
+
+    .ftr {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        align-items: start;
+        flex-direction: column-reverse;
+    }
+
+    .ftr-logo-icon {
+        width: 100%;
+    }
+
+    .ftr-copy-right {
+        width: 100%;
+        text-align: center;
+        padding: 11px 0px 2px 0px;
+    }
+    .about-paragraph p {
+        padding-top: 12px;
+    }
+    .about-banner-img-card-p p:nth-child(1) {
+        font-size: 20px;
+    }
+    .about-banner-main {
+        padding: 30px 0px 40px 0px;       
+        z-index: -1;
+        top: 70px;
+    }
+    .about-paragraph-main {
+        padding: 99px 0px 33px 0px;
+    }
+}
+
+@media only screen and (max-width:639px) {
+    .about-banner-text {
+        width: 100%;
+        padding-top: 0px;
+        padding: 0px;
+    }
+
+    .about-banner-text h2 {
+        text-align: center;
+        padding-bottom: 0px;
+        font-size: 38px;
+        line-height: normal;
+    }
+
+    .about-banner-text p {
+        padding: 0px 89px;
+        text-align: center;
+    }
+h3{
+    font-size: 28px;
+    line-height: normal !important;
+}
+.about-banner-cards {
+    width: 100%;
+    padding-top: 28px;
+    text-align: initial;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.about-paragraph-main {
+    padding: 0px 0px 30px 0px;
+}
+
+#about-banner-main::after {
+    content: "";
+    width: 335px;
+    height: 52rem;
+    position: absolute;
+    filter: blur(80px);
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    right: auto;
+    background: linear-gradient(to top, #F8F5F8 50%, #f5f1f6 50%);
+    z-index: -1;
+}
+    #about-banner-main::before {       
+        height: 46rem;       
+    }
+    .about-banner-cards::after {
+
+        top: -254px;
+        right: -169px;
+    }
+    .about-banner-p::before {      
+        height: 84px;      
+        top: -55px;
+        right: -93px;
+      
+    }
+    .navabar-btn a {    
+       
+        padding: 10px 24px;
+        
+    }
+    .navabar nav {
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 57px;
+        right: 0px;
+        background: white;
+        padding: 17px 17px;
+        height: 100vh;
+    }
+   .navbar-btn-desktop-view{
+    display: none;
+   }
+    .navbar-btn-mobile-view{
+        display: block;
+    }
+    .navabar-icons {
+		font-size: 20px;
+		display: block;
+        color: black;
+	}
+
+	.navabar-icons2 {
+		display: none;
+		position: relative;
+        color: black;
+	}
+
+    .navabar nav ul {
+        justify-content: end;
+        text-align: left;
+        flex-direction: column;
+    }
+    .navabar nav ul li a {
+        padding: 6px 10px;
+        color: black;
+        line-height: 44px;
+    }
+    .navabar-btn {
+        width: 100%;
+        padding-top: 19px !important;
+        text-align: left;
+    }
+    .navbarIcon-1 {
+		display: none;
+	}
+
+	.navbarIcon-2 {
+		display: block;
+	}
+    .about-banner-main {
+        padding: 25px 0px 91px 0px;
+        z-index: -1;
+        top: 58px;
+    }
+    .navbar-btn-mobile-view a {
+        color: white !important;
+        padding: 10px 20px !important;
+    }
+  
+    .about-paragraph p {
+        padding-top: 9px;
+    }
+    .about-banner-p p {
+        font-size: 62px;
+        writing-mode: horizontal-tb;
+        top: 4px;
+        left: 0;
+        animation: animateBg 2s linear infinite;
+        background-image: linear-gradient(62deg,#aaa9de,#fdbbaf,#aaa9de,#fdbbaf);
+        z-index: 9999;       
+        position: relative;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .navabar-btn {
+        width: auto;
+        margin: 0;
+        padding: 10px 0px 10px 0px;
+    }
+    .navabar nav {
+        width: 100%;
+        display: none;
+        top: 51px;
+    }
+    .about-banner-text p {
+        padding: 0px;
+        text-align: center;
+    }
+    .about-banner-text {
+        width: 100%;
+        padding-top: 0px;
+        padding: 2px 0px 0px 0px;
+    }
+   
+    .about-banner-cards {
+        width: 100%;
+        text-align: center;
+        left: 0px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .ftr-a {
+        width: 32%;
+    }
+    .ftr-icons {
+        width: 59%;
+    }
+  
+    .footer {
+        padding-top: 0px;
+    }
+    #about-banner-main::before {
+        height: 43rem;
+    }
+    #about-banner-main::after {
+        width: 335px;
+        height: 48rem;
+        background: linear-gradient(to top, #Ffff 7%, #f5f1f6 16%);
+    }
+    .about-banner-p::before {
+        position: absolute;
+        content: "";
+        width: 126px;
+        height: 126px;
+        transform: rotate(-47deg);
+        top: -86px;
+        filter: blur(26px);
+        right: -41px;
+        background: rgb(166, 165, 214);
+        z-index: -1;
+    }
+    .navabar-logo {
+        width: 22%;
+    }
+    ul li a {
+        padding: 0 13px;
+    }
+    .about-banner-main {
+        padding: 25px 0px 80px 0px;
+        top: 52px;
+    }
+   
+    .ftr-copy-right {
+        width: 100%;
+        padding: 13px 0px 2px 0px;
+    }
+    .about-paragraph p {
+        padding-top: 7px;
+    }
+    .about-paragraph-main {
+        padding: 0px 0px 30px 0px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .about-banner-main {
+        padding: 36px 0px 80px 0px;
+        top: 52px;
+    }
+}
+/*=========================== media query css End ==========================*/
